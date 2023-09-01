@@ -42,13 +42,13 @@ namespace App_Reto1
         protected global::System.Web.UI.WebControls.TextBox txt_nombre;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control txt_apellido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txt_apellido;
 
         /// <summary>
         /// Control txt_contacto.
@@ -87,31 +87,22 @@ namespace App_Reto1
         protected global::System.Web.UI.WebControls.TextBox txt_salario;
 
         /// <summary>
-        /// Control txt_empresa_labora.
+        /// Control txt_empresa_laboral.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_empresa_labora;
+        protected global::System.Web.UI.WebControls.TextBox txt_empresa_laboral;
 
         /// <summary>
-        /// Control txt_estado_credito.
+        /// Control txt_monto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_estado_credito;
-
-        /// <summary>
-        /// Control txt_fecha_solicitud.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_fecha_solicitud;
+        protected global::System.Web.UI.WebControls.TextBox txt_monto;
 
         /// <summary>
         /// Control cbx_plazo.

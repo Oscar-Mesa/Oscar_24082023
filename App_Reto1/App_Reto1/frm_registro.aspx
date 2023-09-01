@@ -18,7 +18,7 @@
                 <asp:TextBox ID="txt_nombre" runat="server" placeholder="Nombres *"></asp:TextBox> 
             </div>
             <div class="form-group">
-                <asp:TextBox ID="TextBox1" runat="server" placeholder="Apellidos *" ></asp:TextBox> 
+                <asp:TextBox ID="txt_apellido" runat="server" placeholder="Apellidos *" ></asp:TextBox> 
             </div>
             <div class="form-group">
                 <asp:TextBox ID="txt_contacto" runat="server" placeholder="Contacto *" ></asp:TextBox> 
@@ -33,24 +33,21 @@
                 <asp:TextBox ID="txt_salario" runat="server" placeholder="Salario *" ></asp:TextBox> 
             </div>
             <div class="form-group">
-                <asp:TextBox ID="txt_empresa_labora" runat="server" placeholder="Empresa en que trabaja *" ></asp:TextBox> 
+                <asp:TextBox ID="txt_empresa_laboral" runat="server" placeholder="Empresa en que trabaja *" ></asp:TextBox> 
             </div>
             <div class="form-group">
-                <asp:TextBox ID="txt_estado_credito" runat="server" placeholder="Estado del credito *" ></asp:TextBox> 
-            </div>
-            <div class="form-group">
-                <asp:TextBox ID="txt_fecha_solicitud" runat="server" placeholder="Fecha de la solicitud *" ></asp:TextBox> 
+                <asp:TextBox ID="txt_monto" runat="server" placeholder="Monto a recibir*" ></asp:TextBox> 
             </div>
 
             <asp:DropDownList ID="cbx_plazo" runat="server" CssClass="cbx">
-                <asp:ListItem Value="6 ">6 Meses</asp:ListItem>
-                <asp:ListItem Value="12 ">12 meses</asp:ListItem>
-                <asp:ListItem Value="24 ">24 meses</asp:ListItem>
-                <asp:ListItem Value="36 ">36 meses</asp:ListItem>
+                <asp:ListItem Value="0 ">6 Meses</asp:ListItem>
+                <asp:ListItem Value="1 ">12 meses</asp:ListItem>
+                <asp:ListItem Value="2 ">24 meses</asp:ListItem>
+                <asp:ListItem Value="3 ">36 meses</asp:ListItem>
             </asp:DropDownList>
 
             <div class="btn-group">
-                <asp:Button ID="btn_registrar" runat="server" Text="Registrar" CssClass="btn"  />
+                <asp:Button ID="btn_registrar" runat="server" Text="Registrar" CssClass="btn" OnClick="btn_registrar_Click"  />
                 <asp:Button ID="btn_cancelar" runat="server" Text="Cancelar" CssClass="btn btn-cancelar"  />
                 <asp:Button ID="btn_consultar" runat="server" Text="Consulta" CssClass="btn" />
             </div>
