@@ -13,6 +13,7 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 h3 {
@@ -23,12 +24,16 @@ h3 {
 .form-group {
     margin-right: 2px;
     margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 2px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
 }
 
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 .cbx { 
     margin-right: 2px;
     margin-top: 10px;
@@ -41,15 +46,8 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
 }
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
 input[type="text"] {
-    width: 100%;
+    width: 98%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
