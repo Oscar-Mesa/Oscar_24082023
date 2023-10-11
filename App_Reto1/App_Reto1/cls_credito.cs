@@ -25,8 +25,8 @@ namespace App_Reto1
             string direccion, string salario, string empresa,string plazo,string monto)
         {
             if ((codigo == "") || (nombre == "") || (apellidos == "") || (correo == "") || (direccion == "") ||
-                (salario == "") || (empresa == "") || (plazo == "") || (monto == ""))
-            {
+                (salario == "") || (empresa == "") || (monto == ""))
+            {   
                 str_mensaje = "Llene los campos obligatorios";
             }
             else
